@@ -2,6 +2,8 @@ body {
      max-width: 1000px;
      margin: auto;
 }
+
+
  .header img {
      width: 100px;
      height: 100px;
@@ -9,56 +11,79 @@ body {
      top: 15px;
      left: auto;
 }
- h1, h2 {
+
+
+ h1,
+ h2 {
      text-align: right;
      color: #303f59;
      font-family: Helvetica, Arial, sans-serif;
      font-weight: normal;
      padding-right: 3%
 }
+
+
  hr {
      margin-top: 1em;
      margin-bottom: 1em;
      height: 3px;
-     background-color: #98AFC7;
+     background-color: #98afc7;
      width: 100%;
 }
+
+
  .banner {
      width: 100%;
      height: auto;
 }
+
+
  p {
      font-size: 35px;
      font-family: Helvetica, Arial, sans-serif;
      color: #415370;
      font-weight: lighter;
 }
+
+
  .row {
      display: flex;
      flex-wrap: wrap;
      padding: 1px 4px;
 }
+
+
  .column {
      width: 33%;
      font-size: 20px;
      color: #000000;
      text-align: center;
+     margin: 5px;
+     flex: 1;
 }
+
+
  img {
      width: auto;
      height: auto;
      margin: auto;
-     display: block;
+     display: flex;
 }
+
+
  a:hover {
      background-color: #d7eaef;
 }
+
+
  @media only screen and (max-width: 650px) {
      .column {
          flex: 100%;
          width: 100%;
     }
 }
+
+
  footer {
      position: relative;
      margin-top: 50px;

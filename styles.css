@@ -1,94 +1,21 @@
-body {
-     max-width: 1000px;
-     margin: auto;
+
+header {
+      
+      height: 40vh;
+      background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 100% 100%;
+      background-size: cover;
 }
 
+.parallax {
+    /* The image used */
+    background: url("images/kel_suu.jpg") no-repeat 100% 100%;
 
- .header img {
-     width: 100px;
-     height: 100px;
-     position: absolute;
-     top: 15px;
-     left: auto;
-}
+    /* Set a specific height */
+    min-height: 500px; 
 
-
- h1,
- h2 {
-     text-align: right;
-     color: #303f59;
-     font-family: Helvetica, Arial, sans-serif;
-     font-weight: normal;
-     padding-right: 3%
-}
-
-
- hr {
-     margin-top: 1em;
-     margin-bottom: 1em;
-     height: 3px;
-     background-color: #98afc7;
-     width: 100%;
-}
-
-
- .banner {
-     width: 100%;
-     height: auto;
-}
-
-
- p {
-     font-size: 35px;
-     font-family: Helvetica, Arial, sans-serif;
-     color: #415370;
-     font-weight: lighter;
-}
-
-
- .row {
-     display: flex;
-     flex-wrap: wrap;
-     padding: 1px 4px;
-}
-
-
- .column {
-     width: 33%;
-     font-size: 20px;
-     color: #000000;
-     text-align: center;
-     margin: 5px;
-     flex: 1;
-}
-
-
- img {
-     width: auto;
-     height: auto;
-     margin: auto;
-     display: flex;
-}
-
-
- a:hover {
-     background-color: #d7eaef;
-}
-
-
- @media only screen and (max-width: 650px) {
-     .column {
-         flex: 100%;
-         width: 100%;
-    }
-}
-
-
- footer {
-     position: relative;
-     margin-top: 50px;
-     text-align: center;
-     font-size: 25px;
-     cursor: pointer;
-     height: 100px
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
